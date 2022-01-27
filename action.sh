@@ -1,6 +1,5 @@
-branch=main
-git clone https://github.com/AvikaTrivedi/YukkiMusicBot /root/TeamUltroid
-cp ultroid/my.env /root/TeamUltroid/my.env
-cd /root/TeamUltroid
-docker build . -t ultroid
-docker run -i ultroid
+git clone -b emcee https://github.com/AvikaTrivedi/YukkiMusicBot /root/Emcee
+cp ultroid/my.env /root/Emcee/my.env
+cd /root/Emcee
+docker build . -t emcee
+docker run -i emcee
